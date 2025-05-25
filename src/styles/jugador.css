@@ -1,0 +1,35 @@
+.panel-jugador {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+  background-color: #2c3e50;
+  color: white;
+}
+
+.seccion-jugador {
+  background-color: #34495e;
+  border-radius: 12px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.avatar-jugador {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.barra {
+  background-color: #7f8c8d;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 15px;
+  margin: 5px 0;
+}
+
+.barra span {
+  display: block;
+  height: 100%;
+}
